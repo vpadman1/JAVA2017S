@@ -1,5 +1,9 @@
-size(100,100);
-fill(255,0,0);
-stroke(0,255,0);
-strokeWeight(50);
-rect(60,60,100,100);
+void setup() {
+  size(6600,600);
+  frameRate(1);
+}
+
+void draw() {
+  fill(255,0,0);
+  rect(60,60,100,100);
+}
