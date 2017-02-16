@@ -15,6 +15,6 @@ void draw() {
   x=x+dx;
 
   if (x>=width-rect_width|| x<0) {
-    dx=-dx;
+    dx=-2*dx;
   }
 }
